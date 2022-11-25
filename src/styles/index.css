@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.list-group{
+    border: black solid;
+    border-width: 0px 3px 3px 0px;
+}
+
+.bg-danger{
+    background-color: crimson !important;
+}
+
+.badge{
+
+}
+
+.todoitem button{
+    display: none;
+}
+
+.todoitem:hover button{
+    display: initial;
+    cursor: pointer;
+}
+
